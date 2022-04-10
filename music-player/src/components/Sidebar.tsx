@@ -7,7 +7,7 @@ interface Props {
 export const SideBar: React.FC<Props> = ({text}) => {
     return (
         <div>
-            
+            {text}
         </div>
     ); 
 }
